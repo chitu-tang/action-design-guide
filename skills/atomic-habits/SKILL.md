@@ -1,7 +1,7 @@
 ---
 name: atomic-habits
 description: |
-  《原子习惯》（Atomic Habits，James Clear）全书能力入口，本书在四本融合里的主责是「身份层」，兼环境线索侧、追踪复盘与承诺问责，核心为四步模型（提示→渴望→反应→奖赏）与四定律。 关键词：原子习惯、掌控习惯、习惯叠加、执行意图、环境设计、两分钟法则、习惯追踪、身份型习惯；Atomic Habits、four laws of behavior change、identity-based habits、habit stacking、habit tracker、temptation bundling。 不适用：一，临床成瘾、物质依赖或戒断问题，本工具只做习惯设计，原书仅一句自限且无分诊判据，应转介专业人士； 二，改掉已有坏习惯走反向四律（隐而不见／缺乏吸引力／难以实行／令人不满），并守住分寸：原书无分诊判据、不得把方法当治疗； 三，与习惯设计无关的纯信息查询（概念定义、书籍元信息、章节概览）走 references/，不加载能力卡。
+  《原子习惯》（Atomic Habits，James Clear）全书能力入口，本书在四本融合里主责「身份层」，兼环境线索侧、追踪复盘与承诺问责，核心为四步模型（提示→渴望→反应→奖赏）与四定律。 关键词：原子习惯、掌控习惯、习惯叠加、执行意图、环境设计、两分钟法则、习惯追踪、身份型习惯；另覆盖熟练后停滞想突破、无聊想放弃该加难还是守日程、一个方向该深耕还是探索；Atomic Habits、four laws of behavior change、identity-based habits、habit stacking、habit tracker、temptation bundling。 不适用：一，临床成瘾、物质依赖或戒断问题，本工具只做习惯设计，应转介专业人士； 二，改掉已有坏习惯走反向四律（隐而不见／缺乏吸引力／难以实行／令人不满），并守住分寸：原书无分诊判据、不得把方法当治疗； 三，与习惯设计无关的纯信息查询（概念定义、书籍元信息、章节概览）走 references/，不加载能力卡。
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.variant: single
