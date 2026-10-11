@@ -53,8 +53,8 @@
 
 **2）语言信号（中英双写关键 trigger）**
 
-- 中文：我就是没动力 / 提不起劲 / 动机忽高忽低 / 一鼓作气再而衰 / 我明明很想做可就是做不到 / 为什么奖励惩罚都没用 / 越逼越不想做 / 想削弱动机该怎么做。
-- English: I have no motivation / my motivation comes and goes / why don't rewards or punishments work / the more I push myself the less I want to / how do I weaken motivation / why can't I sustain it even though I really want it.
+- 中文：对某件具体的事提不起劲 / 动机忽高忽低 / 一鼓作气再而衰 / 我明明很想做可就是做不到 / 为什么奖励惩罚都没用 / 越逼越不想做 / 想削弱动机该怎么做。
+- English: I can't get myself to do this one thing / my motivation comes and goes / why don't rewards or punishments work / the more I push myself the less I want to / how do I weaken motivation / why can't I sustain it even though I really want it.
 
 **3）与相邻能力怎么区分**
 
