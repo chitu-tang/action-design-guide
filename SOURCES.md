@@ -8,3 +8,4 @@
 |---|---|---|
 | 《福格行为模型》 | [`sources/foggs-behavior-model.md`](sources/foggs-behavior-model.md) | 79 条进入能力卡 ＋ 188 条作背景与支撑 |
 | 《原子习惯》 | [`sources/atomic-habits.md`](sources/atomic-habits.md) | 69 条进入能力卡 ＋ 267 条作背景与支撑 |
+| 《人性阻力》 | [`sources/human-element.md`](sources/human-element.md) | 44 条进入能力卡 ＋ 236 条作背景与支撑 |
