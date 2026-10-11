@@ -73,7 +73,7 @@
 - 「我想成为更自律 / 更健康的人」→ 不触发本卡，走 **`identity-design`**。
 - 「帮我戒掉睡前刷手机」→ 不触发本卡，走 **`four-laws-inversion`**。
 
-**分流句（本卡 ↔ `goldilocks` ↔ `habit-mastery`）**：要**选 / 换一个方向或赛场** → 本卡；习惯已定、只是**难度不对**（无聊或太难） → goldilocks；习惯已**自动化、想突破到更高水平** → habit-mastery。
+**分工说明（本卡 ↔ `goldilocks` ↔ `habit-mastery`）**：要**选 / 换一个方向或赛场** → 本卡；习惯已定、只是**难度不对**（无聊或太难） → goldilocks；习惯已**自动化、想突破到更高水平** → habit-mastery。
 
 ## E — Execution
 

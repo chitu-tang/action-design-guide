@@ -72,7 +72,7 @@
 - 【vs Nudge 侧】「我要设计默认选项 / 助推」→ 本卡不接（底子在 Nudge，且不写成本书独占）。
 - 【vs 路由入口】「参考点 / 相对论是什么」→ 走来源路由入口 human-element。
 
-**分流句（本卡 ↔ `familiarization` ↔ 福格 `anchor-matching`）**：**管理参考点 / 把单个选项扩成多个可接受方案** → 本卡；**降低陌生感** → familiarization；**挂时间锚点 / 让线索显眼** → `anchor-matching` / `cue-design`。
+**分工说明（本卡 ↔ `familiarization` ↔ 福格 `anchor-matching`）**：**管理参考点 / 把单个选项扩成多个可接受方案** → 本卡；**降低陌生感** → familiarization；**挂时间锚点 / 让线索显眼** → `anchor-matching` / `cue-design`。
 
 ## E — Execution
 

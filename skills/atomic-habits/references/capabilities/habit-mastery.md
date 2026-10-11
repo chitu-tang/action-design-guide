@@ -62,7 +62,7 @@
 - 「帮我从零养成一个新习惯」→ 不触发本卡，走养成线（two-minute-rule / cue-design）。
 - 「我为什么总做不到 X」→ 不触发本卡，走 **`four-step-diagnosis`**。
 
-**分流句（本卡 ↔ `goldilocks` ↔ `find-your-field`）**：**习惯已自动化、要突破到更高水平** → 本卡；**只是无聊、难度不对** → goldilocks；**方向本身选错了** → find-your-field。
+**分工说明（本卡 ↔ `goldilocks` ↔ `find-your-field`）**：**习惯已自动化、要突破到更高水平** → 本卡；**只是无聊、难度不对** → goldilocks；**方向本身选错了** → find-your-field。
 
 ## E — Execution
 

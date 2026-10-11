@@ -71,7 +71,7 @@
 - 「我为什么总做不到 X」→ 不触发本卡，走 **`four-step-diagnosis`**。
 - 「帮我改环境」→ 不触发本卡，走 **`environment-design`**。
 
-**分流句（本卡 ↔ `find-your-field` ↔ `habit-mastery`）**：**沿现有习惯调难度、让动机不掉** → 本卡；**换 / 选方向** → find-your-field；**自动化后要突破瓶颈** → habit-mastery。
+**分工说明（本卡 ↔ `find-your-field` ↔ `habit-mastery`）**：**沿现有习惯调难度、让动机不掉** → 本卡；**换 / 选方向** → find-your-field；**自动化后要突破瓶颈** → habit-mastery。
 
 ## E — Execution
 

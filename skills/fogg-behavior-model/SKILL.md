@@ -1,7 +1,7 @@
 ---
 name: fogg-behavior-model
 description: |
-  《福格行为模型》（BJ Fogg，即 Tiny Habits）全书能力入口。适用于行为改变类咨询与任务：某个行为明明想做却做不到想找卡点、想养成一个新习惯、想改掉或减少一个坏习惯、想帮他人或群体改变行为，以及想用福格行为模型（B=MAP）本身做判断时。关键词：福格行为模型、微习惯、Tiny Habits、B=MAP、行为设计、习惯养成、锚点、庆祝、黄金行为、能力链、行为改变系统方案、群体行为设计。不适用：严重成瘾或自由落体型习惯、精神疾病（抑郁／焦虑症／进食障碍）以及结构性约束（贫困、制度障碍、人身安全）导致的执行不能——这些应转介专业人士；也不用于与行为改变无关的纯信息查询。
+  《福格行为模型》（BJ Fogg，即 Tiny Habits）全书能力入口。适用于行为改变类咨询与任务：某个行为明明想做却做不到想找卡点、想养成一个新习惯、想改掉或减少一个坏习惯、想帮他人或群体改变行为，以及想用福格行为模型（B=MAP）本身做判断时。关键词：福格行为模型、微习惯、Tiny Habits、B=MAP、行为设计、习惯养成、锚点、庆祝、黄金行为、能力链、行为改变系统方案、群体行为设计。不适用：严重成瘾或自由落体型习惯、精神疾病（抑郁／焦虑症／进食障碍）以及结构性约束（贫困、制度障碍、人身安全）导致的执行不能——这些应转介专业人士；与行为改变无关的纯信息查询（概念定义、书籍元信息、章节概览）则仍由本入口承接——入口直读 references/ 回答，只是不加载任何能力卡。
 metadata:
   cangjie.generated-by: cangjie-tools v2.5.0
   cangjie.variant: single
@@ -18,7 +18,7 @@ metadata:
 - 严重成瘾或「自由落体型」习惯（如物质滥用）：原书明确划给专家或专业机构，本 skill 不处理，应转介。
 - 精神疾病导致的执行不能（抑郁、焦虑症、进食障碍等）：超出行为设计范围，应转介专业人士。
 - 结构性约束（贫困、制度性障碍、人身安全风险）：本书不讨论外部约束，不得把这类问题当作「方法设计问题」处理。
-- 与行为改变无关的纯信息查询（概念定义、书籍元信息、章节概览）：走 references/，不要加载能力卡。
+- 与行为改变无关的纯信息查询（概念定义、书籍元信息、章节概览）：仍由本入口承接——入口直读 references/ 回答，只是不加载任何能力卡。
 
 ## 核心原则（常驻速览，概览类问题读到这里即可回答）
 
@@ -34,17 +34,17 @@ metadata:
 | 用户意图 | 先读 | 补读/备注 |
 |---|---|---|
 | 诊断某个具体行为**该发生却没发生**为什么没做到；找出行为卡在提示/能力/动机哪一环；复盘计划失败是缺提示、太难还是没动力；评估一个已做过的干预方案为什么没起作用；不适用（改走 change-bad-habit-system）：行为本身在反复发生、只是不想要它（如“控制不住刷手机、想弄清为什么改不掉”）——这不是“该发生而没发生”，而是要改掉一个已形成的习惯 | references/capabilities/bmap-diagnosis.md | references/capabilities/tiny-habit-design.md、references/capabilities/change-bad-habit-system.md、references/capabilities/motivation-diagnosis.md |
-| 已有一个**具体行为**：提示在、能力也够，却还是不想做/拖着不做，想弄清动机本身；想定位某个行为的动机来源与冲突（为什么忽强忽弱）；想削弱而不是硬加动机；复盘「靠打鸡血重启计划」为什么反复失败；评估「加奖励/加惩罚」的方案为什么反而让人更抵触；不适用（改走 bmap-diagnosis）：用户拿「意志力太差 / 没动力」自我归因某个具体行为时，先走 bmap-diagnosis 排查提示与能力 | references/capabilities/motivation-diagnosis.md | references/capabilities/bmap-diagnosis.md |
+| 已有一个**具体行为**：提示在、能力也够，却还是不想做/拖着不做，想弄清动机本身；想定位某个行为的动机来源与冲突（为什么忽强忽弱）；想削弱而不是硬加动机；复盘「靠打鸡血重启计划」为什么反复失败；评估「加奖励/加惩罚」的方案为什么反而让人更抵触；不适用（改走 bmap-diagnosis）：用户拿「意志力太差 / 没动力」自我归因某个具体行为时，先走 bmap-diagnosis 排查提示与能力；不适用（改走原子 reinforcement）：问的是「做完没什么感觉 / 没什么即时好处」，不是提不起劲 | references/capabilities/motivation-diagnosis.md | references/capabilities/bmap-diagnosis.md |
 | 养成一个新习惯；培养好习惯 / 建立每日习惯；设计微习惯、写微习惯配方；把"想做但坚持不下来"的事变成能持续的小习惯；从零开始规划一个行为设计方案；还不知道该做哪些行为，需要先把候选行为发散出来（行为集群 / 挥舞魔法棒） | references/capabilities/tiny-habit-design.md | references/capabilities/bmap-diagnosis.md、references/capabilities/change-bad-habit-system.md、references/capabilities/golden-behavior.md、references/capabilities/make-it-easy.md、references/capabilities/prompt-types.md、references/capabilities/anchor-matching.md、references/capabilities/meanwhile-habit.md、references/capabilities/pearl-habit.md、references/capabilities/celebration.md、references/capabilities/habit-growth.md、references/capabilities/group-behavior-design.md |
 | 从一批候选行为里筛出黄金行为；判断某个行为是不是黄金行为 / 好匹配；在几个行为之间做取舍；把「想做」和「应该做」分开；不适用（改走 tiny-habit-design）：还没有候选行为、需要先把选项想出来（“不知道该做哪些事 / 不知道从哪个行为下手”） | references/capabilities/golden-behavior.md | references/capabilities/tiny-habit-design.md、references/capabilities/make-it-easy.md |
 | 让说话人自己（或他要帮的某个人）想做的行为变得容易做；定位一个行为卡在哪个能力因素；把行为缩小成一个可立刻做的微行为；行为太难坚持、想降低门槛；不适用（本域不处理）：产品 / 流程 / 界面的可用性优化（UI、UX 工作）不是行为改变 | references/capabilities/make-it-easy.md | references/capabilities/tiny-habit-design.md、references/capabilities/golden-behavior.md、references/capabilities/habit-growth.md |
 | 为某个新习惯选择提示类型；判断该用人物提示、情境提示还是行动提示；之前的提醒方式（闹钟/便利贴/记性）不管用，想知道换哪种；区分单次行为与长期习惯该用哪种提示；提醒太多、已经不响应，想重新设计提示 | references/capabilities/prompt-types.md | references/capabilities/tiny-habit-design.md、references/capabilities/anchor-matching.md、references/capabilities/meanwhile-habit.md、references/capabilities/pearl-habit.md |
-| 判断某个锚点跟要养的新习惯配不配；为某个新习惯挑选合适的锚点；锚点与新习惯位置/频率/主题对不上，想调整；把模糊锚点（吃过早饭之后）精确化；用最后动作（Trailing Edge）优化锚点 | references/capabilities/anchor-matching.md | references/capabilities/tiny-habit-design.md、references/capabilities/prompt-types.md、references/capabilities/meanwhile-habit.md、references/capabilities/pearl-habit.md |
+| 判断某个锚点跟要养的新习惯配不配；为某个新习惯挑选合适的锚点；锚点与新习惯位置/频率/主题对不上，想调整；把模糊锚点（吃过早饭之后）精确化；用最后动作（Trailing Edge）优化锚点；不适用（改走原子 cue-design）：锚点还没定，要的是一句可执行的线索配方（何时何地 / 挂到哪个既有习惯后面） | references/capabilities/anchor-matching.md | references/capabilities/tiny-habit-design.md、references/capabilities/prompt-types.md、references/capabilities/meanwhile-habit.md、references/capabilities/pearl-habit.md |
 | 觉得没时间，想把碎片时间利用起来养习惯；把必定发生的等待（等热水、等红灯、排队、坐电梯）变成习惯的锚点；在通勤或等待时顺手做点有意义的小事；不额外占用时间地培养一个微习惯；不适用（改走 anchor-matching）：普通空闲 / 休息时间不是「必定发生的等待」，想判断某段时间能不能当锚点 | references/capabilities/meanwhile-habit.md | references/capabilities/tiny-habit-design.md、references/capabilities/prompt-types.md、references/capabilities/anchor-matching.md、references/capabilities/pearl-habit.md |
 | 把一件烦人的事（噪音/排队）变成提示来养成习惯；把（无法消除的）他人恶语当作养成新习惯的触发点（求助／维权类不属本域）；用一个正向小动作应对反复出现的烦躁/压力；把无法消除的负面刺激转成正向习惯；管理压力与焦虑：一被某件事触发就照顾自己 | references/capabilities/pearl-habit.md | references/capabilities/tiny-habit-design.md、references/capabilities/prompt-types.md、references/capabilities/anchor-matching.md、references/capabilities/meanwhile-habit.md |
 | 知道该庆祝，但不确定庆祝本身怎么用、什么时候庆祝才有效；我给自己定的延后奖励没效果，想知道为什么；想找一个自然、不尴尬的庆祝方式；习惯中断或想扩大规模，问还要不要重新庆祝；想知道庆祝为什么有用、情绪为什么能创造习惯 | references/capabilities/celebration.md | references/capabilities/tiny-habit-design.md、references/capabilities/affirmation-messages.md、references/capabilities/habit-growth.md |
-| 已经养成的习惯怎么加量 / 变大；习惯怎么繁殖 / 带出别的习惯；判断该加量还是等待涟漪效应；加量后动力下降怎么处理 | references/capabilities/habit-growth.md | references/capabilities/tiny-habit-design.md、references/capabilities/make-it-easy.md、references/capabilities/celebration.md |
-| 戒掉/改掉一个坏习惯（对象是单个习惯，要一套分阶段落地方案）；减少某个不想要的行为；终止或替换一个已形成的坏习惯；想一套分阶段的改坏习惯落地方案 | references/capabilities/change-bad-habit-system.md | references/capabilities/bmap-diagnosis.md、references/capabilities/tiny-habit-design.md、references/capabilities/quit-habit-exercise.md |
+| 已经养成的习惯怎么加量 / 变大；习惯怎么繁殖 / 带出别的习惯；判断该加量还是等待涟漪效应；加量后动力下降怎么处理；不适用（改走原子 two-minute-rule）：连「做两分钟」都起不来（还没做到，谈不上扩展） | references/capabilities/habit-growth.md | references/capabilities/tiny-habit-design.md、references/capabilities/make-it-easy.md、references/capabilities/celebration.md |
+| 戒掉/改掉一个坏习惯（对象是单个习惯，要一套分阶段落地方案）；减少某个不想要的行为；终止或替换一个已形成的坏习惯；想一套分阶段的改坏习惯落地方案；不适用（改走原子 four-laws-inversion）：确认不是成瘾，要按「提示 / 渴望 / 反应 / 奖赏」四个方向对称地一次排查 | references/capabilities/change-bad-habit-system.md | references/capabilities/bmap-diagnosis.md、references/capabilities/tiny-habit-design.md、references/capabilities/quit-habit-exercise.md |
 | 要一个立刻能做的终止习惯练习/清单（多个想停的习惯并列比较，要一份立刻能填的轻量清单）；为几个想停的习惯各列一批候选办法并择优；轻量版探索终止习惯的方法 | references/capabilities/quit-habit-exercise.md | references/capabilities/change-bad-habit-system.md |
 | 帮团队 / 家人 / 社群一起养成某个行为；为让一群人共同养成／改变某个具体行为设计行动方案；想帮某个具体的人改变行为（孩子 / 同事 / 朋友），要为此设计一套行动方案；群体参与率低，想设计一个让大家一起做的方案；不适用（改走 bmap-diagnosis）：只想知道**某个人自己**的某个行为为什么没发生，不涉及设计一套让他人/一群人改变的做法（归因，不要方案） | references/capabilities/group-behavior-design.md | references/capabilities/tiny-habit-design.md、references/capabilities/group-ethics-guardrail.md、references/capabilities/affirmation-messages.md |
 | 我要帮 / 影响别人改变，先确认有没有越界成操纵；帮他人改变时该守住什么底线；判断一个「为你好」式的改变是否合乎伦理 | references/capabilities/group-ethics-guardrail.md | references/capabilities/group-behavior-design.md、references/capabilities/fogg-maxims-filter.md |

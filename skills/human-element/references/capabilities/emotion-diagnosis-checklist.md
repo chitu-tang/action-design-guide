@@ -62,7 +62,7 @@
 - 【vs 福格 `celebration` / 原子 `reframe`】「想加正情绪 / 想换说法」→ 走那两张。
 - 【vs 路由入口】「情感摩擦是什么」→ 走来源路由入口 human-element。
 
-**分流句（本卡 ↔ `negative-emotion-source` ↔ `four-frictions-diagnosis`）**：要**一份情感摩擦自检清单 / 评估强度** → 本卡；要**动手挖一个具体卡点的负情绪来源并下药** → negative-emotion-source；**还没判卡在哪根摩擦** → four-frictions-diagnosis。
+**分工说明（本卡 ↔ `negative-emotion-source` ↔ `four-frictions-diagnosis`）**：要**一份情感摩擦自检清单 / 评估强度** → 本卡；要**动手挖一个具体卡点的负情绪来源并下药** → negative-emotion-source；**还没判卡在哪根摩擦** → four-frictions-diagnosis。
 
 ## E — Execution
 

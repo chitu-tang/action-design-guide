@@ -120,7 +120,7 @@
 | deliberate practice | 刻意练习【通行】 | 刻意回到费力区打磨下一个子技能 | 第 20 章 |
 | keep your identity small | 保持身份小而灵活【通行】 | 引 Paul Graham：别让单一身份占满自我，以防脆弱僵化 | 第 20 章 |
 
-> 注意：本书的 **cue** 与 Fogg 的 **prompt** 是**不同词**（见「融合预备」节）。作者的 cue 源自 Duhigg/Skinner 的 cue-routine-reward 传统。
+> 注意：本书的 **cue** 与 Fogg 的 **prompt** 是**不同词**（见「与《福格行为模型》的对照」节）。作者的 cue 源自 Duhigg/Skinner 的 cue-routine-reward 传统。
 
 ### 核心命题 (用自己的话)
 
