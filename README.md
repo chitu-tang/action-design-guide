@@ -10,10 +10,12 @@
 |---|---|---|
 | 《福格行为模型》 BJ Fogg, *Tiny Habits* (2020) | **已完成** | [`skills/fogg-behavior-model/`](skills/fogg-behavior-model/) ＋ [`guide/foggs-behavior-model.md`](guide/foggs-behavior-model.md) |
 | 《原子习惯》 James Clear, *Atomic Habits* | **已完成** | [`skills/atomic-habits/`](skills/atomic-habits/) ＋ [`guide/atomic-habits.md`](guide/atomic-habits.md) |
-| *Nudge: The Final Edition* Thaler & Sunstein | 排队中 | — |
+| *Nudge: The Final Edition* Thaler & Sunstein | **已完成**（不出能力卡） | [`principles/nudge.md`](principles/nudge.md) ＋ [`principles/nudge-glossary.md`](principles/nudge-glossary.md) |
 | 《人性阻力》 Nordgren & Schonthal, *The Human Element* | **已完成** | [`skills/human-element/`](skills/human-element/) ＋ [`guide/human-element.md`](guide/human-element.md) |
 
 另外有一份手写的**产品入口** [`skills/action-design-guide/`](skills/action-design-guide/)。它里面没有任何一本书的内容，负责把上面几本书串成一条流程：先读你的执行档案，判断这次卡在哪一层，再按层路由到对应那本书的能力卡，最后把结论写回档案。想要「拿我自己的执行情况进去，它告诉我卡在哪」这种用法，装它。
+
+**Nudge 为什么没有能力卡**：这本书讲的是怎么给别人、给组织搭选择环境，而这份指南面向个人自用。它的那套主张（默认值、摩擦与淤泥、选择架构）只作为「环境层」的**原则出处**存在，动作位早就被别的卡接走了：看得到什么走原子习惯的 `environment-design`，这件事多难做走 `friction-prime`，要一次性锁死走 `commitment-accountability`。所以它只提交一份可读的原则集和一份术语表，不装进 Agent、不占路由。
 
 ## 两种用法
 
@@ -31,6 +33,8 @@
 ### 二、自己读
 
 [`guide/`](guide/) 下的长文独立成篇，不用装任何东西。读完你能自己用 B=MAP 排查卡点、自己写出微习惯配方，也能自己用四步模型定位习惯卡在哪一环。
+
+[`principles/`](principles/) 下是 Nudge 那一本的原则集与术语表。它不是长文，是一份可查的清单：想弄清楚「默认值为什么黏人」「淤泥指什么」「某个术语的准确含义」，直接翻那里。
 
 ## 这里面到底装了什么
 
@@ -63,6 +67,13 @@
 - 工具类：摩擦报告工作表（按四种摩擦给一个计划填一张表）、推动力与摩擦力框架（到底该加推力还是减摩擦）
 
 这本书有一点得先说清楚：第一章到末章都在讲「怎么说服别人」，几乎没有一个「自己对自己」的案例。所以落到自我场景时，方法得先掉头改造，不能直接拿来用。
+
+### *Nudge: The Final Edition*——一份原则集（不出能力卡）
+
+这本书面向的是「给别人搭环境」的人（政策设计者、产品设计者、零售商），原书几乎没有「自己对自己」的案例。所以它进这份指南的方式和别人不一样：**不出能力卡，只作环境层的原则出处**。
+
+- [`principles/nudge.md`](principles/nudge.md)：62 条主干原则分九组（架构与结构、默认与路径、提示与提醒、摩擦与淤泥、预期出错、反馈与学习、激励与显著性、自控与承诺、认知底账），外加 14 条机制底账、9 条设计侧约束、3 条护栏，以及 24 条应用示例。每条标出原书章次，并注明对自己怎么用（哪些能原样搬、哪些要换主语）。
+- [`principles/nudge-glossary.md`](principles/nudge-glossary.md)：78 条术语，按作者自己的写作架构分 6 组（导论 + 五编）。每条给中文名、作者定义、与常识的差别、掉头对自己的用法、英文原词、与前三本的对齐关系，以及原书有没有标来源。
 
 ### 产品入口——怎么把几本书串起来
 
@@ -99,5 +110,6 @@
 skills/            编译好的能力包，可直接拷进 Agent
                    其中 action-design-guide 是产品入口，其余是各本书的能力包
 guide/             精华长文，给人读的
+principles/        Nudge 那一本的原则集与术语表（不出能力卡）
 sources/           溯源索引：每条结论的出处
 ```
