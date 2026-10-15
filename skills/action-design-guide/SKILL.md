@@ -75,20 +75,29 @@ description: |
 
 判层之后按层加载对应能力。**具体加载哪张卡，一律读那本书自己的 `SKILL.md` 路由表，不要在这里另写一套。**
 
-| 层 / 任务 | 加载（读这本书的 `SKILL.md` 挑卡） | 常落在哪张卡 |
+| 层 / 轴 / 任务 | 加载哪本书 | 落在哪些卡（这一层可能用到的全部） |
 |---|---|---|
-| 环境层 · 线索 | `atomic-habits` | `cue-design`、`environment-design`、`habit-tracking-reflection` |
-| 阻力层 | `human-element` | `four-frictions-diagnosis`、`friction-effort-diagnosis`、`streamlining`、`negative-emotion-source`、`resistance-self-persuasion`、`resistance-self-assessment`、`roadmap-clarity`、`referent-management` |
-| 环境层 · 摩擦（与能力层同轴，去重时一起处理） | `atomic-habits`（`friction-prime`）／`fogg-behavior-model`（`make-it-easy`） | `friction-prime`、`make-it-easy` |
-| 能力层 | `fogg-behavior-model` | `make-it-easy`、`tiny-habit-design` |
-| 提示层 | `fogg-behavior-model` | `prompt-types`、`anchor-matching`、`meanwhile-habit`、`pearl-habit` |
-| 情绪层 | `fogg-behavior-model`（`celebration`）／`atomic-habits`（`reinforcement`） | `celebration`、`reinforcement` |
+| 环境层 · 线索 | `atomic-habits` | `cue-design`、`environment-design`、`habit-tracking-reflection`、`social-norms` |
+| 环境层 · 摩擦（与能力层同轴，去重时一起处理） | `atomic-habits`（`friction-prime`、`commitment-accountability`）／`fogg-behavior-model`（`make-it-easy`） | `friction-prime`、`make-it-easy`、`commitment-accountability` |
+| 阻力层 · 先分四类 | `human-element` | `four-frictions-diagnosis`、`friction-report-worksheet` |
+| 阻力层 · 惯性轴（太陌生） | `human-element` | `familiarization` |
+| 阻力层 · 惰性轴（消耗 / 模糊） | `human-element` | `friction-effort-diagnosis`、`streamlining`、`effort-troubleshooting`、`roadmap-clarity` |
+| 阻力层 · 情感轴（吓人 / 不值） | `human-element` | `negative-emotion-source`、`emotion-diagnosis-checklist` |
+| 阻力层 · 抵触轴（被逼的） | `human-element` | `resistance-self-persuasion`、`resistance-mechanism-rules`、`resistance-self-assessment`、`commitment-public-pledge` |
+| 阻力层 · 参考点（只剩一条死命令） | `human-element` | `referent-management` |
+| 能力层 | `fogg-behavior-model` | `make-it-easy`、`tiny-habit-design`、`two-minute-rule` |
+| 提示层 | `fogg-behavior-model` | `prompt-types`、`anchor-matching`、`meanwhile-habit`、`pearl-habit`、`decisive-moments` |
+| 情绪层 | `fogg-behavior-model`（`celebration`）／`atomic-habits`（`reinforcement`、`reframe`、`temptation-bundling`） | `celebration`、`reinforcement`、`reframe`、`temptation-bundling` |
 | 身份层 | `atomic-habits` | `identity-design`、`find-your-field` |
-| 先定位再出招（诊断） | `fogg-behavior-model`（`bmap-diagnosis`、`motivation-diagnosis`）／`atomic-habits`（`four-step-diagnosis`） | `bmap-diagnosis`、`four-step-diagnosis`、`motivation-diagnosis` |
-| 改坏习惯 / 要分阶段方案 | `fogg-behavior-model`（`change-bad-habit-system`、`quit-habit-exercise`）／`atomic-habits`（`four-laws-inversion`） | `change-bad-habit-system`、`quit-habit-exercise`、`four-laws-inversion` |
 | 维持与进阶（已经做到之后） | `fogg-behavior-model`（`habit-growth`）／`atomic-habits`（`habit-mastery`、`goldilocks`、`find-your-field`） | `habit-growth`、`habit-mastery`、`goldilocks`、`find-your-field` |
+| 先定位再出招（诊断） | `fogg-behavior-model`（`bmap-diagnosis`、`motivation-diagnosis`）／`atomic-habits`（`four-step-diagnosis`、`motion-vs-action`） | `bmap-diagnosis`、`four-step-diagnosis`、`motivation-diagnosis`、`motion-vs-action` |
+| 改坏习惯 / 要分阶段方案 | `fogg-behavior-model`（`change-bad-habit-system`、`quit-habit-exercise`）／`atomic-habits`（`four-laws-inversion`） | `change-bad-habit-system`、`quit-habit-exercise`、`four-laws-inversion` |
+| 这东西到底在满足我什么 / 想拿别的做法替代它 | `atomic-habits` | `deep-motive` |
+| 要选一个具体行为做，不知道选哪个 | `fogg-behavior-model` | `golden-behavior` |
+| 想要一套总纲 / 分不清方向 / 想筛外面的建议 | `atomic-habits`（`four-laws-framework`）／`fogg-behavior-model`（`behavior-design-primer`、`fogg-maxims-filter`）／`human-element`（`fuel-friction-framing`） | `four-laws-framework`、`behavior-design-primer`、`fogg-maxims-filter`、`fuel-friction-framing` |
+| 帮别人 / 帮一群人改变 | `fogg-behavior-model` | `group-behavior-design`、`group-ethics-guardrail`、`affirmation-messages`、`teach-in-2-minutes` |
 
-**这张表只列常落点，不是全集。** 池子里一共 54 张卡，表里没出现的（`deep-motive`、`temptation-bundling`、`reframe`、`golden-behavior`、`decisive-moments` 这些）照样适用：判层之后一律去那本书自己的路由表挑，不要因为表里没写就当作不适用。
+**这张表列全了池子里 54 张能力卡的落点**（三本各 20 / 19 / 15 张），判层之后按它挑就行，不用另外找。同一层里几张卡怎么取舍，读那本书自己的 `SKILL.md`：它的「能力路由」表逐条写着每张卡的准入意图和不适用去向（那张表也是全的，一行不落），书里另附一份完整的意图与关键词索引（`capability-index.md`）。**两处讲得不一样时以书自己的表为准**，那是权威副本，本表只是替它做一次按层归拢。
 
 **表里的「层」那几行是主路，「任务」那几行是补充，一个诉求两行都套得上时走「层」。** 用户只说了要什么结果（「我想把这件事戒掉」「我想让这件事别再发生了」，没说方法）→ 按层走，取第一层能动的，给一条最小动作；用户明说「试了好多办法都不行，给我一套完整的」「这事得分几步走」→ 才走「改坏习惯 / 要分阶段方案」那行。分阶段方案一次要交出三阶段（含新建一个习惯），跟「每次只动一件事」本来就冲突，不是用户点名要就不上。
 
@@ -149,6 +158,8 @@ description: |
 3. **想记的话怎么记。** 愿意就一天一行、睡前填、十秒；断一天不用补。不愿意就说清楚这是可选的。
 
 **记录可选，约定不可选。** 用户说不记就不再提；不事后追问「你记了吗」，也不因为表是空的就跳过复盘。
+
+**这套东西不会自己找上来。** 它只在被叫到时才工作，用户不回来，档案就停在那里。所以第 1 件事不能只是说完就算：宿主有定时提醒一类的能力，就问一句要不要照「下次复盘」那个日期设一个；没有，就直接说「那天在手机上自己设个提醒」，并当场把日期报一遍。**不要承诺「到点我会提醒你」**，这不归这套东西管，也做不到。
 
 **同时进行的设计不超过 3 个。** 到上限时先问要不要收掉哪一个，不要直接开第四个。
 
@@ -322,5 +333,11 @@ date,plan_id,done,weak,note
 可留空：想成为什么样的人。
 
 硬停线勾上 → 只做转介，不出设计。
+
+**用户答不全是常态，谈完回头核一遍。** 一次问两三问、对方只答其中一问，很常见；漏掉的往往正是「每天能腾出多少分钟」「平时待在哪儿、手边有什么」这类听着不像问题的问题。先别落笔，把上面六条逐条对一遍，缺哪条补哪条，一次只补一问。
+
+- **硬停线漏了必须问回来**，这一条不能靠猜，也不许因为「看着不像」就跳过。
+- 其余五条漏了：再问一次；对方答「不知道 / 随便 / 没想过」，就在 `me.md` 对应位置写「未提供」，照常往下判。出动作时避开依赖这一条的判断（不知道能腾出多少分钟，就别给一个指定时长的配方）。
+- **补问算在那 10 问里。** 对方已经在说「差不多就这样吧」，就停手去落笔，缺的标「未提供」，别为了把表填满反复追问。
 
 建完档：写下四份档案文件（`me.md` 全量，另三份按「档案格式」的零条目态）、按上面那条规则处理 `.gitignore`、用一句「我记下了什么」把档案复述给用户确认，再问这次想动哪件事。
