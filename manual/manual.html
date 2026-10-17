@@ -348,6 +348,48 @@ li{margin:7px 0}
 <li>装的就是「拷进去」这一个动作。没有安装程序，也没有卸载程序，要删就把那四个目录删掉。</li>
 <li>目录里已经有同名的旧版本，先删掉再拷，别让新旧两份混在一个目录里。</li>
 </ul>
+<h3>国内常用的几个 Agent，装到哪</h3>
+<p>下面这几家都是按同一套约定读 <code>SKILL.md</code> 的，装法各有一点不同。</p>
+<p><strong>共同的硬条件</strong>：能跑的是<strong>桌面端或命令行</strong>那一种形态。纯网页版、手机 App、云电脑模式写的是沙箱或云盘，不是本机的工作目录，档案跨会话接不上。发东西给人试之前，先确认对方手上是哪种。</p>
+<table>
+<thead>
+<tr>
+<th>Agent</th>
+<th>形态</th>
+<th>装到哪</th>
+<th>怎么装</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>腾讯 WorkBuddy</td>
+<td>桌面端</td>
+<td><code>~/.workbuddy/skills/</code>，或者某个项目里的 <code>.workbuddy/skills/</code></td>
+<td>技能市场里找；或者手工放进去、建个软链</td>
+</tr>
+<tr>
+<td>豆包工作</td>
+<td>桌面端（另有手机端和云电脑）</td>
+<td>手工上传一个技能文件夹</td>
+<td>文件夹里要有 <code>skill.md</code>，开头两行写 <code>name</code> 和 <code>description</code>。没找到「给链接自动拉」的入口</td>
+</tr>
+<tr>
+<td>千问办公 QwenWork</td>
+<td>桌面端（另有网页端和钉钉入口）</td>
+<td><code>~/.qwenworkcn/skills/</code></td>
+<td>最省事：把仓库链接直接发给它，它自己去 clone</td>
+</tr>
+<tr>
+<td>Kimi Code CLI</td>
+<td>命令行</td>
+<td><code>~/.kimi-code/skills/</code> 或 <code>~/.agents/skills/</code></td>
+<td><code>git clone</code> 到上面任一个目录</td>
+</tr>
+</tbody>
+</table>
+<p>各家默认扫的目录不一样。<code>~/.agents/skills/</code> 是其中比较通用的一个位置，WorkBuddy、Trae、Qoder、Kimi Code CLI 都读它，放这儿最省事。</p>
+<p>其实只要那个 Agent 按同一套约定读 <code>SKILL.md</code>，就都能用；上面四家是这一批里最常见的。</p>
+<p>这张表是 2026 年 10 月核的。这类产品变得快，装法以各家官方文档为准。</p>
 <p><strong>怎么知道装上了</strong>：随便说一句「我想养成一个习惯，但就是坚持不下来」，看它会不会自己去翻那本书。或者直接点名：「用行动设计指南帮我看看」。</p>
 <p>入口的触发词是这些，说中一个就会走档案这条路：行动设计、行动设计指南、我的行动档案、接着上次、继续之前那个计划、复盘我的执行、我这段时间做了什么、我实际做了什么、帮我记下来、卡在哪一层、不知道该用哪个方法。</p>
 <h2>附二 · 档案长什么样</h2>
