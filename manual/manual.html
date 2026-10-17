@@ -29,6 +29,9 @@ table{width:100%;border-collapse:collapse;margin:20px 0;font-size:15px;display:b
 th,td{border:1px solid var(--line);padding:9px 13px;text-align:left;vertical-align:top}
 th{background:#FAFAF9;font-weight:600;white-space:nowrap}
 img{max-width:100%;height:auto;display:block;margin:26px 0;border:1px solid var(--line);border-radius:12px}
+/* 图是 1000px 宽的，缩到正文栏宽（约 730px）字号会掉到 13px，
+   所以在宽屏上让图按原尺寸整幅铺开，字号保持 1:1。 */
+@media(min-width:1120px){img{width:1000px;max-width:none;margin-left:calc(50% - 500px);margin-right:calc(50% - 500px)}}
 hr{border:0;border-top:1px solid var(--line);margin:56px 0 28px}
 ul,ol{padding-left:24px}
 li{margin:7px 0}
