@@ -16,7 +16,7 @@
 
 前提是 Agent 能联网拉东西，`git` 或 `curl` 都行。它照着读的是 [`INSTALL.md`](INSTALL.md)，那一页是写给 Agent 看的，不是给人看的。想自己动手、或者 Agent 不认路，走[使用手册](manual/README.md)第一节的四步。
 
-> **第一次用，先读 [使用手册](manual/README.md)。** 从装上到第一次复盘，一步步带，带完整示例和四张图。也有一份可直接发给别人的[单页版](manual/manual.html)。
+> **第一次用，先读 [使用手册](manual/README.md)。** 从装上到第一次复盘，一步步带，带完整示例和四张图。想直接转发给别人，发 [PDF](manual/manual.pdf)（微信里点得开）；[单页 HTML](manual/manual.html) 适合自己存一份。
 
 ## 现在有什么
 
@@ -137,7 +137,7 @@
 ```
 skills/            编译好的能力包，可直接拷进 Agent
                    其中 action-design-guide 是产品入口，其余是各本书的能力包
-manual/            使用手册：从装上到复盘，带示例和图（manual.html 是自包含单页版）
+manual/            使用手册：从装上到复盘，带示例和图（manual.pdf 适合转发，manual.html 是自包含单页版）
 guide/             精华长文，给人读的
 principles/        Nudge 那一本的原则集与术语表（不出能力卡）
 sources/           溯源索引：每条结论的出处
