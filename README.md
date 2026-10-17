@@ -4,6 +4,18 @@
 
 每一份产物都是一套**可执行的判断流程**：什么情况下用它、按什么顺序做、做到什么算完成、什么情况下该停手、边界在哪。另外配一篇把来龙去脉说清楚的长文。
 
+## 装上：让 Agent 自己装
+
+把这一句丢给你的 Agent，它会自己去装：
+
+> 帮我把这个装上：https://github.com/chitu-tang/action-design-guide ，照它仓库根目录的 INSTALL.md 做，装完告诉我装在哪。
+
+再短一点也行，只要那个 Agent 读得到这个仓库：
+
+> 装 skill：chitu-tang/action-design-guide
+
+前提是 Agent 能联网拉东西，`git` 或 `curl` 都行。它照着读的是 [`INSTALL.md`](INSTALL.md)，那一页是写给 Agent 看的，不是给人看的。想自己动手、或者 Agent 不认路，走[使用手册](manual/README.md)第一节的四步。
+
 > **第一次用，先读 [使用手册](manual/README.md)。** 从装上到第一次复盘，一步步带，带完整示例和四张图。也有一份可直接发给别人的[单页版](manual/manual.html)。
 
 ## 现在有什么
@@ -22,6 +34,8 @@
 ## 两种用法
 
 ### 一、装到你自己的 Agent 上
+
+最省事的办法是让 Agent 自己装：把上面那句丢给它，它会照 [`INSTALL.md`](INSTALL.md) 走完，装完还会自己核一遍。想自己动手，就按下文来。
 
 把 [`skills/`](skills/) 下面你需要的目录整个拷进你的 agent 的 skill 目录：
 
